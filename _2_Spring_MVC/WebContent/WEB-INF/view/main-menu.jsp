@@ -23,6 +23,10 @@
     <a href="student/showForm-2">Student form</a>
     <br><br>
 
+    <span>Form with customer validation method for lastName field</span>
+    <a href="customer/showForm">Customer form</a>
+    <br><br>
+
 </div>
 </body>
 </html>

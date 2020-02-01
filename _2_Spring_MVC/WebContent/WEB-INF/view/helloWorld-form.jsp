@@ -21,9 +21,6 @@
         <input type="submit">
     </form>
 </div>
-<br>
-<br>
-<br>
 <div>
     <form action="processForm_ver2" method="get">
 
@@ -31,9 +28,6 @@
         <input type="submit">
     </form>
 </div>
-<br>
-<br>
-<br>
 <div>
     <form action="processForm_ver3" method="get">
 
