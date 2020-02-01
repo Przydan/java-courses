@@ -15,6 +15,10 @@
 <div>
     <p>Customer first name: ${param.firstName}</p>
     <p>Customer last name: ${param.lastName}</p>
+    <p>Customer free passes: ${param.freePasses}</p>
+    <p>Customer postalCode: ${param.postalCode}</p>
+    <p>Customer Course code: ${param.courseCode}</p>
+    <p>Customer password: ${param.password}</p>
 </div>
 </body>
 </html>

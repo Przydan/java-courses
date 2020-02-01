@@ -24,3 +24,5 @@
 //        return viewResolver;
 //    }
 //}
+
+//TODO: config with java conf files
