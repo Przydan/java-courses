@@ -5,7 +5,7 @@ import pl.przydan.springDemo._1_helloSpring_XML.fortune.FortuneService;
 public class BaseballCoach implements Coach {
 
 	// define a private field for the dependency
-	private FortuneService fortuneService;
+	private final FortuneService fortuneService;
 
 	// define a constructor for DI
 	public BaseballCoach(FortuneService theFortuneService) {

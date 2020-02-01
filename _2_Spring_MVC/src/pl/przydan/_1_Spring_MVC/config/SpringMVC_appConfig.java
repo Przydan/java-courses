@@ -9,7 +9,7 @@
 //
 //@Configuration
 //@EnableWebMvc
-//@ComponentScan(basePackages = "pl.przydan.springDemo._5_Spring_MVC")
+//@ComponentScan(basePackages = "pl.przydan.springDemo._1_Spring_MVC")
 //public class SpringMVC_appConfig {
 //
 //    // Define a bean for ViewResolver

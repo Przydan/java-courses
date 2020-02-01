@@ -5,7 +5,7 @@ import pl.przydan.springDemo._4_Java_SpringNoXMLConfig.fortune.FortuneService;
 
 public class SwimCoach implements Coach {
 
-    private FortuneService fortune;
+    private final FortuneService fortune;
     @Value("${foo.email}")
     private String email;
     @Value(value = "JAVA USERS GROUP")
