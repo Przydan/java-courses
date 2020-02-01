@@ -13,5 +13,7 @@
 1. spring WebApp configuration
 2. added JSP homePage
 3. practise with Spring MVC
+4. form validation using hibernate validator
+    + @InitBinder resolve issue for validation strings with whitespaces in forms
 
 ***
