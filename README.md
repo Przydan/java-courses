@@ -44,5 +44,5 @@ A framework for persisting/saving Java objects in a DB
 ## Module _6_: MAVEN Crash 
 ## Module _7_: Spring Security 
 ## Module _8_: Spring REST 
-## Module _8_: Spring BOOT 
-## Module _9_: Spring BOOT - Thymeleaf 
+## Module _9_: Spring BOOT 
+## Module _10_: Spring BOOT - Thymeleaf 
