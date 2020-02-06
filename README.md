@@ -22,8 +22,19 @@
 
 ***
 ## Module: _3_Introduction to Hibernate
-1. In progress ...
-
+A framework for persisting/saving Java objects in a DB
+1. Setting up Hibernate configuration file
+2. ORM - Object-To-Relational-Mapping
+3. Using Session to save/retrieve data to/from DB
+4. CRUD operations 
+5. Relations
+    + One-To-One 
+        + Uni-directional
+        + Bi-directional (@MappedBy)
+        + experiments with cascade types
+    + One-To-Many 
+        +
+        
 ***
 
 # In progress ... 

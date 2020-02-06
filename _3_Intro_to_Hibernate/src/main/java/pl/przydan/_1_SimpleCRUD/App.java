@@ -1,4 +1,4 @@
-package pl.przydan;
+package pl.przydan._1_SimpleCRUD;
 
 /**
  * Hello world!
