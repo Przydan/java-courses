@@ -1,4 +1,4 @@
-package pl.przydan.springDemo._1_helloSpring_XML.Coach;
+package pl.przydan.springDemo._1_helloSpring_XML.coach;
 
 import pl.przydan.springDemo._1_helloSpring_XML.fortune.FortuneService;
 

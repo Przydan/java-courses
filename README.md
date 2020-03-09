@@ -1,5 +1,5 @@
-# SpringDemoApp
-https://www.udemy.com/course/spring-hibernate-tutorial/
+# Spring & Hibernate for Beginners (includes Spring Boot) - Chad Darby
+- [course](https://www.udemy.com/course/spring-hibernate-tutorial/)
 ***
 
 ## Module: _1_Spring-firstSteps
@@ -18,7 +18,7 @@ https://www.udemy.com/course/spring-hibernate-tutorial/
     + Method in customer class @InitBinder resolve issue for validation strings with whitespaces in forms
     + add custom error message (overwrite custom message) at Integer input values validation method when text string is putted in form
     + REGEX validation
-        + TODO https://docs.oracle.com/javase/tutorial/essential/regex/
+        + TODO [docs java REGEX](https://docs.oracle.com/javase/tutorial/essential/regex/)
     + add custom validator annotation 
 
 ***
@@ -29,12 +29,18 @@ A framework for persisting/saving Java objects in a DB
 3. Using Session to save/retrieve data to/from DB
 4. CRUD operations 
 5. Relations
+        [docs @JoinColumn](https://docs.oracle.com/javaee/7/api/javax/persistence/JoinColumn.html#name--)
     + One-To-One 
-        + Uni-directional
-        + Bi-directional (@MappedBy)
-        + experiments with cascade types
     + One-To-Many 
-        +
+    + Many-To-Many
+    
+    
+         Uni-directional
+         Bi-directional
+         Cascade types
+         Fetch types Eager and Lazy
+         MappedBy, JoinColumn, JoinTable annotation
+         
         
 ***
 

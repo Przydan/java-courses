@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class TestJDBC {
 
@@ -22,7 +23,7 @@ public class TestJDBC {
             Connection myConn = DriverManager.getConnection(jdbcUrl, user, pass);
 
             System.out.println("Connection successful");
-        } catch (Exception ex) {
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
     }

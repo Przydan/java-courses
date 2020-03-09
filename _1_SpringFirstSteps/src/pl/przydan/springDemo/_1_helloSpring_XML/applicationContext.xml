@@ -25,20 +25,20 @@
     <!-- define the dependency -->
     <bean id="myFortune" class="pl.przydan.springDemo._1_helloSpring_XML.fortune.RandomFortuneService"/>
 
-    <bean id="myCoach1" class="pl.przydan.springDemo._1_helloSpring_XML.Coach.BaseballCoach">
+    <bean id="myCoach1" class="pl.przydan.springDemo._1_helloSpring_XML.coach.BaseballCoach">
         <!-- set up constructor injection -->
         <constructor-arg ref="myFortune"/>
     </bean>
 
-    <bean id="myCoach2" class="pl.przydan.springDemo._1_helloSpring_XML.Coach.TrackCoach">
+    <bean id="myCoach2" class="pl.przydan.springDemo._1_helloSpring_XML.coach.TrackCoach">
         <constructor-arg ref="myFortune"/>
     </bean>
 
-    <bean id="myCoach3" class="pl.przydan.springDemo._1_helloSpring_XML.Coach.CarCoach">
+    <bean id="myCoach3" class="pl.przydan.springDemo._1_helloSpring_XML.coach.CarCoach">
         <constructor-arg ref="myFortune"/>
     </bean>
 
-    <bean id="myCoach4" class="pl.przydan.springDemo._1_helloSpring_XML.Coach.CricketCoach">
+    <bean id="myCoach4" class="pl.przydan.springDemo._1_helloSpring_XML.coach.CricketCoach">
         <!-- set up setter injection -->
         <property name="fortuneService" ref="myFortune"/>
         <!-- inject literal values -->

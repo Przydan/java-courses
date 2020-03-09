@@ -1,8 +1,8 @@
 package pl.przydan.springDemo._1_helloSpring_XML;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import pl.przydan.springDemo._1_helloSpring_XML.Coach.Coach;
-import pl.przydan.springDemo._1_helloSpring_XML.Coach.CricketCoach;
+import pl.przydan.springDemo._1_helloSpring_XML.coach.Coach;
+import pl.przydan.springDemo._1_helloSpring_XML.coach.CricketCoach;
 
 public class HelloSpringApp {
 
