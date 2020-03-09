@@ -2,7 +2,11 @@ package pl.przydan._1_Spring_MVC.model;
 
 import pl.przydan._1_Spring_MVC.annotations.CourseCode;
 
-import javax.validation.constraints.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 public class Customer {
     private String firstName;
@@ -25,10 +29,9 @@ public class Customer {
 
 
     //TODO: find better solution :(
-    @Pattern(regexp = "^.*(?=.{8,})(?=.*[a-zA-Z])(?=.*\\d)(?=.*[!@#$%^&*,>< \"]).*$"
+    @Pattern(regexp = "^.*(?=.{8,})(?=.* [a-zA-Z])(?=.*\\d)(?=.*[!@#$%^&*,>< \"]).*$"
             , message = "Musi zawierać małe i duże litery, cyfry, znaki specjalne, min 8 znaków")
     private String password;
-
 
     public Customer() {
     }

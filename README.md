@@ -3,23 +3,23 @@
 ***
 
 ## Module: _1_Spring-firstSteps
-1. exercises with spring xml configuration 
+1. spring xml configuration 
 2. constructor and setter injections examples
-3. some play with bean scopes
+3. bean scopes
 4. annotation configuration examples
-5. practise with config spring using java files
+5. config spring using java files
 
 ***
 ## Module: _2_Spring-MVC
 1. spring WebApp configuration
-2. added JSP homePage
-3. practises with Spring MVC
-4. form validation using validator libraries from hibernate and javax.validation.constraints
-    + Method in customer class @InitBinder resolve issue for validation strings with whitespaces in forms
-    + add custom error message (overwrite custom message) at Integer input values validation method when text string is putted in form
+2. JSP files practise
+3. Spring MVC
+4. Form validation using validator libraries from hibernate and javax.validation.constraints
+    + Implemented method in customer class @InitBinder, to resolve issues with validate strings with whitespaces in forms
+    + custom error message in forms
     + REGEX validation
         + TODO [docs java REGEX](https://docs.oracle.com/javase/tutorial/essential/regex/)
-    + add custom validator annotation 
+    + custom validator annotation 
 
 ***
 ## Module: _3_Introduction to Hibernate
