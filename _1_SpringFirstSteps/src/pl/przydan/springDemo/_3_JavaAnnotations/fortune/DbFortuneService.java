@@ -2,7 +2,6 @@ package pl.przydan.springDemo._3_JavaAnnotations.fortune;
 
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

@@ -1,7 +1,7 @@
 package pl.przydan.springDemo._1_helloSpring_XML;
 
-import pl.przydan.springDemo._1_helloSpring_XML.Coach.CarCoach;
-import pl.przydan.springDemo._1_helloSpring_XML.Coach.Coach;
+import pl.przydan.springDemo._1_helloSpring_XML.coach.CarCoach;
+import pl.przydan.springDemo._1_helloSpring_XML.coach.Coach;
 
 public class MyApp {
 
