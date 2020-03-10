@@ -44,14 +44,20 @@ A framework for persisting/saving Java objects in a DB
  ```
 *** 
 ## Module _4:_ DB WebApp using Spring MVC and Hibernate
+The simple app showing table with listed customers on jsp page, 
+able to add/update/delete entities from DB.
 1. Http methods: Get and Post
 2. Crud operations
 3. DAO -> SERVICE -> CONTROLLER
         
 ***
-
-# In progress ... 
 ## Module _5_: AOP 
+
+
+
+***
+# In progress ... 
+
 ## Module _6_: MAVEN Crash 
 ## Module _7_: Spring Security 
 ## Module _8_: Spring REST 
