@@ -30,22 +30,27 @@ A framework for persisting/saving Java objects in a DB
 4. CRUD operations 
 5. Relations
         [docs @JoinColumn](https://docs.oracle.com/javaee/7/api/javax/persistence/JoinColumn.html#name--)
-    + One-To-One 
-    + One-To-Many 
-    + Many-To-Many
-    
-    
-         Uni-directional
-         Bi-directional
-         Cascade types
-         Fetch types Eager and Lazy
-         MappedBy, JoinColumn, JoinTable annotation
-         
+ ```
+     One-To-One 
+     One-To-Many & Many-To-One 
+     Many-To-Many
+ ```
+ ```
+     Uni-directional
+     Bi-directional
+     Cascade types
+     Fetch types Eager and Lazy
+     MappedBy, JoinColumn, JoinTable annotation
+ ```
+*** 
+## Module _4:_ DB WebApp using Spring MVC and Hibernate
+1. Http methods: Get and Post
+2. Crud operations
+3. DAO -> SERVICE -> CONTROLLER
         
 ***
 
 # In progress ... 
-## Module _4:_ DB WebApp using Spring MVC and Hibernate
 ## Module _5_: AOP 
 ## Module _6_: MAVEN Crash 
 ## Module _7_: Spring Security 
