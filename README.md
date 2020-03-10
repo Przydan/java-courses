@@ -44,7 +44,9 @@ A framework for persisting/saving Java objects in a DB
  ```
 *** 
 ## Module _4:_ DB WebApp using Spring MVC and Hibernate
-1.
+1. Http methods: Get and Post
+2. Crud operations
+3. DAO -> SERVICE -> CONTROLLER
         
 ***
 
