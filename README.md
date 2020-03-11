@@ -53,7 +53,7 @@
      MappedBy, JoinColumn, JoinTable annotation
  ```
 *** 
-## Module _4_: WebApp using Spring MVC and Hibernate
+## Module _4_: Spring MVC and Hibernate
 >The simple app showing table with listed customers on jsp page, 
 able to add/update/delete entities from DB.
 1. Http methods: Get and Post
@@ -65,9 +65,12 @@ able to add/update/delete entities from DB.
 Links: 
 [ 
 [wiki](https://en.wikipedia.org/wiki/Aspect-oriented_programming) |
-[docs](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#aop)
+[docs](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#aop) |
+[blog](https://nullpointerexception.pl/jak-korzystac-ze-spring-aop/) 
  ]
- 1. >|||||||||||||||||||||||||| 
+ 1. Set-up AOP project
+ 2. combine @Pointcut declarations
+ 3. @Before, @After, @Around advices
 
 
 ***
