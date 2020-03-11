@@ -5,7 +5,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 /**
- * Unit test for simple AOP_app_after_returning.
+ * Unit test for simple AOP_app_around_advice.
  */
 public class AOPappTest
 {

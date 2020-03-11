@@ -54,7 +54,7 @@
  ```
 *** 
 ## Module _4_: Spring MVC and Hibernate
->The simple app showing table with listed customers on jsp page, 
+>This simple app show table with listed customers on jsp page, 
 able to add/update/delete entities from DB.
 1. Http methods: Get and Post
 2. Crud operations
