@@ -1,9 +1,6 @@
 package pl.przydan.AOP_web_app.entity;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
@@ -11,6 +8,7 @@ import javax.persistence.*;
 @Data
 @NoArgsConstructor
 @RequiredArgsConstructor
+@ToString
 public class Customer {
 
     @Id

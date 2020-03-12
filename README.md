@@ -74,6 +74,7 @@ Links:
  3. @Before, @After, @Around advices
  4. Simulate simple delay to @Around advice test
  5. Catch exceptions in @Around advice
+ 6. Simple web-app with SpringAOP logging
 
 
 ***
