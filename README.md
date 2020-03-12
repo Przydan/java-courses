@@ -65,12 +65,15 @@ able to add/update/delete entities from DB.
 Links: 
 [ 
 [wiki](https://en.wikipedia.org/wiki/Aspect-oriented_programming) |
+[stack-around-with-controllerAdvice](https://stackoverflow.com/questions/50702493/controlleradvice-not-working-when-around-is-present) |
 [docs](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#aop) |
 [blog](https://nullpointerexception.pl/jak-korzystac-ze-spring-aop/) 
  ]
  1. Set-up AOP project
  2. combine @Pointcut declarations
  3. @Before, @After, @Around advices
+ 4. Simulate simple delay to @Around advice test
+ 5. Catch exceptions in @Around advice
 
 
 ***
