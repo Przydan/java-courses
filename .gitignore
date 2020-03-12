@@ -10,8 +10,11 @@ classes
 
 /classes/
 /bin/
+/out/
+
 /_1_SpringFirstSteps/lib/
 /_2_Spring_MVC/WebContent/WEB-INF/lib/
 /_3_Intro_to_Hibernate/target/
-/out/
 /_4_WebApp_SpringMVC_Hibernate/target/
+/_5_Spring_AOP/_5.1_Spring_AOP_examples/target/
+/_5_Spring_AOP/_5.2_Spring_AOP_WebApp/target/

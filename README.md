@@ -2,7 +2,11 @@
 - [course](https://www.udemy.com/course/spring-hibernate-tutorial/)
 ***
 
-## Module: _1_Spring-firstSteps
+## Module: _1_: Spring framework - first steps
+[ 
+[about](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/overview.html#overview) |
+[docs](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#spring-core) 
+ ]
 1. spring xml configuration 
 2. constructor and setter injections examples
 3. bean scopes
@@ -10,7 +14,10 @@
 5. config spring using java files
 
 ***
-## Module: _2_Spring-MVC
+## Module: _2_: Spring-MVC
+[ 
+[docs](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/web.html#spring-web)
+ ]
 1. spring WebApp configuration
 2. JSP files practise
 3. Spring MVC
@@ -22,8 +29,11 @@
     + custom validator annotation 
 
 ***
-## Module: _3_Introduction to Hibernate
-A framework for persisting/saving Java objects in a DB
+## Module: _3_: Hibernate
+[ 
+[docs](https://hibernate.org/orm/documentation/5.4/)
+ ]
+>A framework for persisting/saving Java objects in a DB
 1. Setting up Hibernate configuration file
 2. ORM - Object-To-Relational-Mapping
 3. Using Session to save/retrieve data to/from DB
@@ -43,16 +53,28 @@ A framework for persisting/saving Java objects in a DB
      MappedBy, JoinColumn, JoinTable annotation
  ```
 *** 
-## Module _4:_ DB WebApp using Spring MVC and Hibernate
-The simple app showing table with listed customers on jsp page, 
+## Module _4_: Spring MVC and Hibernate
+>This simple app show table with listed customers on jsp page, 
 able to add/update/delete entities from DB.
 1. Http methods: Get and Post
 2. Crud operations
 3. DAO -> SERVICE -> CONTROLLER
         
 ***
-## Module _5_: AOP 
-
+## Module _5_: Spring AOP 
+Links: 
+[ 
+[wiki](https://en.wikipedia.org/wiki/Aspect-oriented_programming) |
+[stack-around-with-controllerAdvice](https://stackoverflow.com/questions/50702493/controlleradvice-not-working-when-around-is-present) |
+[docs](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#aop) |
+[blog](https://nullpointerexception.pl/jak-korzystac-ze-spring-aop/) 
+ ]
+ 1. Set-up AOP project
+ 2. combine @Pointcut declarations
+ 3. @Before, @After, @Around advices
+ 4. Simulate simple delay to @Around advice test
+ 5. Catch exceptions in @Around advice
+ 6. Simple web-app with SpringAOP logging
 
 
 ***
