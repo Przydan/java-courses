@@ -58,7 +58,7 @@
 able to add/update/delete entities from DB.
 1. Http methods: Get and Post
 2. Crud operations
-3. DAO -> SERVICE -> CONTROLLER
+3. DAO <-> SERVICE <-> CONTROLLER
         
 ***
 ## Module _5_: Spring AOP 
@@ -76,12 +76,19 @@ Links:
  5. Catch exceptions in @Around advice
  6. Simple web-app with SpringAOP logging
 
+***
+## Module _6_: MAVEN Crash
+[ 
+[maven-central](https://search.maven.org/) |
+[documentation](https://maven.apache.org/guides/) 
+ ]
 
+***
+## Module _7_: Spring Security 
+ 1. loading...
 ***
 # In progress ... 
 
-## Module _6_: MAVEN Crash 
-## Module _7_: Spring Security 
 ## Module _8_: Spring REST 
 ## Module _9_: Spring BOOT 
 ## Module _10_: Spring BOOT - Thymeleaf 
