@@ -6,7 +6,7 @@
 
 <head>
 
-    <title>Login Page</title>
+    <title>Fancy Login Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,6 +21,12 @@
 </head>
 
 <body>
+
+<div class="title">
+    <hr>
+    <h1> SPRING SECURITY DEMO </h1>
+    <hr>
+</div>
 
 <div>
 

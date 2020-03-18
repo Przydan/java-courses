@@ -13,7 +13,7 @@
 
 
     <properties>
-        <springframework.version>5.2.2.RELEASE</springframework.version>
+        <springframework.version>5.2.4.RELEASE</springframework.version>
         <spring_security.version>5.2.2.RELEASE</spring_security.version>
         <hibernate.version>5.4.12.Final</hibernate.version>
         <mysql.connector.version>8.0.19</mysql.connector.version>
@@ -66,6 +66,12 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
+            <version>${spring_security.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-taglibs</artifactId>
             <version>${spring_security.version}</version>
         </dependency>
 

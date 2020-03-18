@@ -12,11 +12,15 @@
     </style>
 </head>
 <body>
-
+<div>
+    <hr>
+    <h1> SPRING SECURITY DEMO </h1>
+    <hr>
+</div>
 <h3>Login page</h3>
 
-<form:form action="${pageContext.request.contextPath}/authenticateUser"
-           method="POST">
+<form action="${pageContext.request.contextPath}/authenticateUser"
+      method="POST">
 
     <c:if test="${param.error != null}">
         <i class="failedLoginMsg">Sorry! You entered invalid username/password.</i>
@@ -26,7 +30,12 @@
     <p> Password: <input type="password" name="password"/></p>
 
     <input type="submit" value="Login"/>
-</form:form>
+
+    <%-- Add CSRF token --%>
+    <input type="hidden"
+           name="${_csrf.parameterName}"
+           value="${_csrf.token}"/>
+</form>
 
 </body>
 </html>
