@@ -18,3 +18,11 @@ classes
 /_4_WebApp_SpringMVC_Hibernate/target/
 /_5_Spring_AOP/_5.1_Spring_AOP_examples/target/
 /_5_Spring_AOP/_5.2_Spring_AOP_WebApp/target/
+
+# MVN wrapper
+/mvnw.cmd
+/mvnw
+/_7_Spring_Security_project/_7.2_Spring_Security_security_app/mvnw
+/_7_Spring_Security_project/_7.2_Spring_Security_security_app/mvnw.cmd
+/_7_Spring_Security_project/_7.2_Spring_Security_security_app/.mvn/
+/_7_Spring_Security_project/_7.2_Spring_Security_security_app/target/

@@ -50,7 +50,7 @@
      Bi-directional
      Cascade types
      Fetch types Eager and Lazy
-     MappedBy, JoinColumn, JoinTable annotation
+     MappedBy, JoinColumn, JoinTable
  ```
 *** 
 ## Module _4_: Spring MVC and Hibernate
@@ -77,7 +77,7 @@ Links:
  6. Simple web-app with SpringAOP logging
 
 ***
-## Module _6_: MAVEN Crash
+## Module _6_: MAVEN
 [ 
 [maven-central](https://search.maven.org/) |
 [documentation](https://maven.apache.org/guides/) 
@@ -86,6 +86,8 @@ Links:
 ***
 ## Module _7_: Spring Security 
  1. loading...
+ 
+ 
 ***
 # In progress ... 
 
