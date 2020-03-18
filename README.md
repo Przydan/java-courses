@@ -85,7 +85,8 @@ Links:
 
 ***
 ## Module _7_: Spring Security 
- 1. loading...
+ 1. Log in/out 
+ 2. CSRF - loading ...
  
  
 ***
