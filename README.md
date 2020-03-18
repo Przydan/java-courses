@@ -87,6 +87,10 @@ Links:
 ## Module _7_: Spring Security 
  1. Log in/out 
  2. [CSRF](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#csrf)
+ 3. Restrict access based on Role
+ 4. Display content based on Roles
+ 5. 
+ 
  
  
 ***

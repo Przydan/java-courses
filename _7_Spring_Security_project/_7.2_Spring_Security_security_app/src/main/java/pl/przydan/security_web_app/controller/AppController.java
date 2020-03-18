@@ -13,6 +13,17 @@ public class AppController {
 
     @GetMapping("/employees")
     public String showHomePage() {
-        return "user_info";
+        return "home-page";
     }
+
+    @GetMapping("/leaders")
+    public String showLeadersPage() {
+        return "leaders";
+    }
+
+    @GetMapping("/systems")
+    public String showAdminPage() {
+        return "admin";
+    }
+
 }
