@@ -10,7 +10,7 @@ USE `spring_security_app`;
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `username` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL,
+  `password` varchar(68) NOT NULL,
   `enabled` tinyint(1) NOT NULL,
   PRIMARY KEY (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -18,12 +18,13 @@ CREATE TABLE `users` (
 --
 -- Inserting data for table `users`
 --
+-- all bcrypted passwords are: 'test123'
 
 INSERT INTO `users` 
 VALUES 
-('bob','{noop}test123',1),
-('patrick','{noop}test123',1),
-('alice','{noop}test123',1);
+('bob','{bcrypt}$2y$14$r.5g21q32J3oHz5qpNftHOq7MBhTsU51lWCZbSs8kfZweRmiXUtvq',1),
+('patrick','{bcrypt}$2y$14$dnD48qCW3UaYQoFmp5M5JOg7KGAIP//gDagdYY5GNxeF.zh65osD.',1),
+('alice','{bcrypt}$2y$14$A49tIBfmmtQ/HUQcuAYVaO4SNN/HLZkc710XgvcgW6dJ/LZtKa/qq',1);
 
 
 --

@@ -56,7 +56,6 @@
         <!--            <version>${springframework.version}</version>-->
         <!--        </dependency>-->
 
-
         <!-- aspectj weaver -->
         <!--        <dependency>-->
         <!--            <groupId>org.aspectj</groupId>-->
