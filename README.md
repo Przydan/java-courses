@@ -50,7 +50,7 @@
      Bi-directional
      Cascade types
      Fetch types Eager and Lazy
-     MappedBy, JoinColumn, JoinTable annotation
+     MappedBy, JoinColumn, JoinTable
  ```
 *** 
 ## Module _4_: Spring MVC and Hibernate
@@ -77,7 +77,7 @@ Links:
  6. Simple web-app with SpringAOP logging
 
 ***
-## Module _6_: MAVEN Crash
+## Module _6_: MAVEN
 [ 
 [maven-central](https://search.maven.org/) |
 [documentation](https://maven.apache.org/guides/) 
@@ -85,7 +85,21 @@ Links:
 
 ***
 ## Module _7_: Spring Security 
- 1. loading...
+ 1. Log in/out 
+ 2. [CSRF](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#csrf)
+ 3. Restrict access based on Role
+ 4. Display content based on Roles
+ 5. JDBC database authentication
+ 6. Password encryption 
+[ [why-bcrypt](https://medium.com/@danboterhoven/why-you-should-use-bcrypt-to-hash-passwords-af330100b861) | 
+ [wiki](https://en.wikipedia.org/wiki/Bcrypt) |
+ [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)]
+ 7. I'll back here...(TODO: OAuth2) 
+
+***
+## Module _8_: Spring REST
+ 1.  
+ 
 ***
 # In progress ... 
 
