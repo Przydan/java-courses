@@ -25,14 +25,14 @@
 
     <hr>
 
-    <security:authorize access="hasRole('MANAGER')">
+    <security:authorize access="hasRole('ROLE_MANAGER')">
         <p>
             <a href="${pageContext.request.contextPath}/leaders">Leadership</a>
         </p>
         <hr>
     </security:authorize>
 
-    <security:authorize access="hasRole('ADMIN')">
+    <security:authorize access="hasRole('ROLE_ADMIN')">
         <p>
             <a href="${pageContext.request.contextPath}/systems">Admin tools</a>
         </p>

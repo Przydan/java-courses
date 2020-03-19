@@ -90,11 +90,15 @@ Links:
  3. Restrict access based on Role
  4. Display content based on Roles
  5. JDBC database authentication
- 6. Password encryption - 
- [ [why-bcrypt](https://medium.com/@danboterhoven/why-you-should-use-bcrypt-to-hash-passwords-af330100b861) | 
+ 6. Password encryption 
+[ [why-bcrypt](https://medium.com/@danboterhoven/why-you-should-use-bcrypt-to-hash-passwords-af330100b861) | 
  [wiki](https://en.wikipedia.org/wiki/Bcrypt) |
  [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)]
- 
+ 7. I'll back here...(TODO: OAuth2) 
+
+***
+## Module _8_: Spring REST
+ 1.  
  
 ***
 # In progress ... 

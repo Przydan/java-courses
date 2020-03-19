@@ -20,7 +20,10 @@
 </div>
 
 <div>
-    <a href="${pageContext.request.contextPath}/employees">Employee</a>
+    <a href="${pageContext.request.contextPath}/employees">Employee login</a>
+</div>
+<div>
+    <a href="${pageContext.request.contextPath}/register/showRegistrationForm">Registration form</a>
 </div>
 
 
