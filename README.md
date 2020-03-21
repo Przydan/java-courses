@@ -98,7 +98,8 @@ Links:
 
 ***
 ## Module _8_: Spring REST
- 1.  
+ 1. Jackson databinding
+ 2. CRM REST (REST API <--> CLIENT)
  
 ***
 # In progress ... 
