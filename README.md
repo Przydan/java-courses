@@ -123,6 +123,7 @@ Links:
  2. Spring Boot CRUD -> HIBERNATE, JPA, 
  3. Spring Data, Spring Data REST
  4. Optionals
+ 5. Data REST overview - configuration, pagination, sorting 
  
 ***
 # In progress ... 
