@@ -133,7 +133,8 @@ Links:
     [Bootstrap](https://getbootstrap.com/) |
     [POST/Redirect/GET - pattern](https://en.wikipedia.org/wiki/Post/Redirect/Get)
 ]
- 1. Thymeleaf overview, adding Bootstrap 
- 2. 
-# In progress ... 
+ 1. Thymeleaf overview
+ 2. Bootstrap CSS
+ 
+
  
