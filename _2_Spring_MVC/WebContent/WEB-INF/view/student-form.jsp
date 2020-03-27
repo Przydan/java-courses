@@ -39,15 +39,15 @@
             </form:select>
 
             <form:label path="favoriteLang" for="favoriteLang">Favorite Language</form:label>
-            <form:radiobuttons path="favoriteLang" items="${student.langOptions}" />
+            <form:radiobuttons path="favoriteLang" items="${student.langOptions}"/>
 
             <form:label path="OS" for="OS">With os you using?</form:label>
             <form:checkboxes path="OS" items="${student.OS_options}"/>
 
-<%--            Java <form:radiobutton path="favoriteLang" value="Java"/>--%>
-<%--            C# <form:radiobutton path="favoriteLang" value="C#"/>--%>
-<%--            Python <form:radiobutton path="favoriteLang" value="Python"/>--%>
-<%--            JavaScript <form:radiobutton path="favoriteLang" value="JavaScript"/>--%>
+                <%--            Java <form:radiobutton path="favoriteLang" value="Java"/>--%>
+                <%--            C# <form:radiobutton path="favoriteLang" value="C#"/>--%>
+                <%--            Python <form:radiobutton path="favoriteLang" value="Python"/>--%>
+                <%--            JavaScript <form:radiobutton path="favoriteLang" value="JavaScript"/>--%>
 
 
             <form:button type="submit" class="pure-button pure-button-primary">Submit!</form:button>

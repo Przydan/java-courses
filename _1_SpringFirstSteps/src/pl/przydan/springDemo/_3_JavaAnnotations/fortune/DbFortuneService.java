@@ -14,6 +14,10 @@ public class DbFortuneService implements FortuneService {
 
     private final List<String> LIST = listOfReadiedFortunesFromFile();
 
+    private static String getFileName() {
+        return "C:\\$SDA\\IntelllyJ_projects\\#MyProjects\\spring_demo_one\\src\\pl\\przydan\\springDemo\\_3_JavaAnnotations\\fortune\\fortunes.txt";
+    }
+
     @Override
     public String getFortune() {
         return LIST.get(new Random().nextInt(LIST.size()));
@@ -31,10 +35,6 @@ public class DbFortuneService implements FortuneService {
             e.printStackTrace();
         }
         return fortunes;
-    }
-
-    private static String getFileName() {
-        return "C:\\$SDA\\IntelllyJ_projects\\#MyProjects\\spring_demo_one\\src\\pl\\przydan\\springDemo\\_3_JavaAnnotations\\fortune\\fortunes.txt";
     }
 
 }

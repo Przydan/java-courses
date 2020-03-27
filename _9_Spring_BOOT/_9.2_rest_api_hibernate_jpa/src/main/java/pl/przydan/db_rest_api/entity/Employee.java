@@ -1,5 +1,6 @@
 package pl.przydan.db_rest_api.entity;
 
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
@@ -19,8 +20,11 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private @NonNull String firstName;
-    private @NonNull String lastName;
-    private @NonNull String email;
+    private @NonNull
+    String firstName;
+    private @NonNull
+    String lastName;
+    private @NonNull
+    String email;
 
 }

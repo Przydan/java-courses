@@ -10,11 +10,11 @@ import java.util.Random;
 public class RandomFortuneService implements FortuneService {
 
     private static final List<String> FORTUNES =
-            Arrays.asList(  "Today is your normal day!",
-                            "Today is your bad day!",
-                            "Today is your good day!",
-                            "Beware of the wolf in sheep's clothing",
-                            "The journey is reward");
+            Arrays.asList("Today is your normal day!",
+                    "Today is your bad day!",
+                    "Today is your good day!",
+                    "Beware of the wolf in sheep's clothing",
+                    "The journey is reward");
 
 
     @Override

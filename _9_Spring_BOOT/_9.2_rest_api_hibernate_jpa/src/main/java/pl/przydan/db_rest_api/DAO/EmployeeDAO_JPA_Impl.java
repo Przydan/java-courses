@@ -1,11 +1,13 @@
 package pl.przydan.db_rest_api.DAO;
 
+
 import org.springframework.stereotype.Repository;
 import pl.przydan.db_rest_api.entity.Employee;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
+
 
 @Repository
 public class EmployeeDAO_JPA_Impl implements EmployeeDAO {

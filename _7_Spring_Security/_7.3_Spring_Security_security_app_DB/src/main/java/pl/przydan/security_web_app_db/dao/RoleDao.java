@@ -5,6 +5,6 @@ import pl.przydan.security_web_app_db.entity.Role;
 
 public interface RoleDao {
 
-	Role findRoleByName(String theRoleName);
-	
+    Role findRoleByName(String theRoleName);
+
 }

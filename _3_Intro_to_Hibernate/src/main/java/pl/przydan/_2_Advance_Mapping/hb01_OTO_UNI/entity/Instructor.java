@@ -19,12 +19,15 @@ public class Instructor {
     private int id;
 
     @Column(name = "first_name")
-    private @NonNull String firstName;
+    private @NonNull
+    String firstName;
 
     @Column(name = "last_name")
-    private @NonNull String lastName;
+    private @NonNull
+    String lastName;
 
-    private @NonNull String email;
+    private @NonNull
+    String email;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "instructor_detail_id")

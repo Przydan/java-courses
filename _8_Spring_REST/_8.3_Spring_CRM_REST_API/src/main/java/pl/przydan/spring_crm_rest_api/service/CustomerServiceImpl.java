@@ -9,7 +9,7 @@ import pl.przydan.spring_crm_rest_api.entity.Customer;
 import java.util.Set;
 
 @Service
-public class CustomerServiceImpl implements CustomerService{
+public class CustomerServiceImpl implements CustomerService {
 
     private CustomerDAO customerDAO;
 

@@ -10,6 +10,11 @@
     "zip": "19103",
     "country": "USA"
   },
-  "languages": ["JAVA", "PYTHON", "C#", "KOTLIN"],
+  "languages": [
+    "JAVA",
+    "PYTHON",
+    "C#",
+    "KOTLIN"
+  ],
   "company": "Big Inc."
 }

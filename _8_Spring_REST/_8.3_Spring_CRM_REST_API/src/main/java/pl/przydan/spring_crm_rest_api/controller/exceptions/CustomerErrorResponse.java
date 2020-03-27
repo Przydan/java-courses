@@ -5,7 +5,10 @@ import lombok.NonNull;
 
 @Data
 public class CustomerErrorResponse {
-    private @NonNull Integer status;
-    private @NonNull String message;
-    private @NonNull Long timestamp;
+    private @NonNull
+    Integer status;
+    private @NonNull
+    String message;
+    private @NonNull
+    Long timestamp;
 }

@@ -4,7 +4,6 @@ package pl.przydan.rest_api_spring_data.service;
 import pl.przydan.rest_api_spring_data.entity.Employee;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface EmployeeService {
 

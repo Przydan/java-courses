@@ -1,7 +1,6 @@
 package pl.przydan.security_web_app_db.validation;
 
 
-
 import javax.validation.Constraint;
 import javax.validation.Payload;
 import java.lang.annotation.*;

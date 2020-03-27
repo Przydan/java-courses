@@ -5,11 +5,10 @@ import org.springframework.transaction.annotation.Transactional;
 import pl.przydan.AOP_web_app.DAO.CustomerDAO;
 import pl.przydan.AOP_web_app.entity.Customer;
 
-
 import java.util.List;
 
 @Service
-public class CustomerServiceImpl implements CustomerService{
+public class CustomerServiceImpl implements CustomerService {
 
     private CustomerDAO customerDAO;
 

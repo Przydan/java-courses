@@ -15,6 +15,9 @@ import java.util.TreeMap;
 @RequestMapping("/student")
 public class StudentController {
 
+    @Value("#{countryOptions}")
+    private Map<String, String> countryOptions;
+
     @RequestMapping("/showForm")
     public String showForm(Model theModel) {
 
@@ -26,9 +29,6 @@ public class StudentController {
 
         return "student-form";
     }
-
-    @Value("#{countryOptions}")
-    private Map<String, String> countryOptions;
 
     @RequestMapping("/showForm-2")
     public String showForm_2(Model theModel) {

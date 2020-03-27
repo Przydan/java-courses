@@ -21,10 +21,12 @@ public class InstructorDetail {
     private int id;
 
     @Column(name = "youtube_channel")
-    private @NonNull String ytChannel;
+    private @NonNull
+    String ytChannel;
 
     @Column
-    private @NonNull String hobby;
+    private @NonNull
+    String hobby;
 
     @OneToOne(mappedBy = "instructorDetail",
             cascade = {DETACH, MERGE, PERSIST, REFRESH})

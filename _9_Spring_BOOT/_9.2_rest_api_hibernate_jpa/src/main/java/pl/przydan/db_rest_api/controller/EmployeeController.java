@@ -48,7 +48,7 @@ public class EmployeeController {
     public String deleteEmployee(@PathVariable int id) {
         Employee byId = service.findById(id);
 
-        if(byId == null) {
+        if (byId == null) {
             throw new RuntimeException("Employee not exists with the id - " + id);
         }
         service.deleteEmployee(id);

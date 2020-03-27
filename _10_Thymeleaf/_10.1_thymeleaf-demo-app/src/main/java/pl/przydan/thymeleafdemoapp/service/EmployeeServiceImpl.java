@@ -29,7 +29,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         Optional<Employee> result = repository.findById(id);
         if (result.isPresent()) {
             return result.get();
-        }else {
+        } else {
             throw new NoSuchElementException("Employee not found with id - " + id);
         }
     }

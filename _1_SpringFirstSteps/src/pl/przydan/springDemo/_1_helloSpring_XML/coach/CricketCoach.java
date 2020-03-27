@@ -1,8 +1,9 @@
 package pl.przydan.springDemo._1_helloSpring_XML.coach;
 
+
 import pl.przydan.springDemo._1_helloSpring_XML.fortune.FortuneService;
 
-public class CricketCoach implements Coach{
+public class CricketCoach implements Coach {
 
     private FortuneService fortuneService;
     private String emailAddress;

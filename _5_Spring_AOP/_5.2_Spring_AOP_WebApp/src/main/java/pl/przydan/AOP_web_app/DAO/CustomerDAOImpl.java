@@ -51,7 +51,7 @@ public class CustomerDAOImpl implements CustomerDAO {
         Session sf = sessionFactory.getCurrentSession();
         if (customer.getId() == null) {
             sf.save(customer);
-        }else {
+        } else {
             sf.update(customer);
         }
     }

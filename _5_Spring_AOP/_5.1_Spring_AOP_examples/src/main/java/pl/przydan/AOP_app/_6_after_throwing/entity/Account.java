@@ -5,6 +5,8 @@ import lombok.NonNull;
 
 @Data
 public class Account {
-    private @NonNull String level;
-    private @NonNull String name;
+    private @NonNull
+    String level;
+    private @NonNull
+    String name;
 }

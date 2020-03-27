@@ -25,9 +25,9 @@ public class CreateCourseAndStudents {
             Course tempCourse2 = new Course("Create simple android app2");
 
             // create the students and save them
-            Student student1 = new Student("John", "Foo1","foo1@dot.com");
-            Student student2 = new Student("Johnny", "Foo2","foo2@dot.com");
-            Student student3 = new Student("Alice", "Foo3","foo3@dot.com");
+            Student student1 = new Student("John", "Foo1", "foo1@dot.com");
+            Student student2 = new Student("Johnny", "Foo2", "foo2@dot.com");
+            Student student3 = new Student("Alice", "Foo3", "foo3@dot.com");
 
             session.save(student1);
             session.save(student2);

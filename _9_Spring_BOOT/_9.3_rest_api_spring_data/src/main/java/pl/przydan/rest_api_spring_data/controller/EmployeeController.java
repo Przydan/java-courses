@@ -6,7 +6,6 @@ import pl.przydan.rest_api_spring_data.entity.Employee;
 import pl.przydan.rest_api_spring_data.service.EmployeeService;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
@@ -46,7 +45,7 @@ public class EmployeeController {
     public String deleteEmployee(@PathVariable int id) {
         Employee byId = service.findById(id);
 
-        if(byId == null) {
+        if (byId == null) {
             throw new RuntimeException("Employee not exists with the id - " + id);
         }
         service.deleteEmployee(id);

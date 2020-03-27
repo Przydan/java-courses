@@ -10,6 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -19,8 +20,11 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private @NonNull String firstName;
-    private @NonNull String lastName;
-    private @NonNull String email;
+    private @NonNull
+    String firstName;
+    private @NonNull
+    String lastName;
+    private @NonNull
+    String email;
 
 }

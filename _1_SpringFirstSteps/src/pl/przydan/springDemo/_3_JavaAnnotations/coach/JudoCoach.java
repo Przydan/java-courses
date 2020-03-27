@@ -12,7 +12,7 @@ public class JudoCoach implements Coach {
     @Qualifier("happyFortuneService")
     private FortuneService fortune;
 
-//    @Autowired
+    //    @Autowired
     public JudoCoach() {
         System.out.println(">> inside setter injection method");
     }

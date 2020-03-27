@@ -1,6 +1,6 @@
 package pl.przydan.springDemo._2_BeanScope_XML.Coach;
 
-import pl.przydan.springDemo._1_helloSpring_XML.fortune.FortuneService;
+import pl.przydan.springDemo._2_BeanScope_XML.fortune.FortuneService;
 
 public class CricketCoach implements Coach {
 

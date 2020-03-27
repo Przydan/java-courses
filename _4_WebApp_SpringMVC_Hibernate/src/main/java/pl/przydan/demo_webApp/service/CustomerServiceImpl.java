@@ -8,7 +8,7 @@ import pl.przydan.demo_webApp.entity.Customer;
 import java.util.List;
 
 @Service
-public class CustomerServiceImpl implements CustomerService{
+public class CustomerServiceImpl implements CustomerService {
 
     private CustomerDAO customerDAO;
 

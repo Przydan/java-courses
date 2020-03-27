@@ -7,9 +7,7 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
-import pl.przydan.AOP_web_app.entity.Customer;
 
-import java.util.List;
 import java.util.logging.Logger;
 
 @Aspect

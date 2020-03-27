@@ -1,7 +1,5 @@
 package pl.przydan.springDemo._2_BeanScope_XML.fortune;
 
-import pl.przydan.springDemo._1_helloSpring_XML.fortune.FortuneService;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;

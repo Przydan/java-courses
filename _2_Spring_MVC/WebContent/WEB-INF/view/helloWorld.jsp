@@ -14,16 +14,16 @@
           integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" rel="stylesheet">
 </head>
 <body>
-    Hello World of Spring!
+Hello World of Spring!
 <br>
 <br>
 
 
-    <p>Student name: ${param.studentName}</p>
+<p>Student name: ${param.studentName}</p>
 
-    <p>
-        message: ${message}
-    </p>
+<p>
+    message: ${message}
+</p>
 
 </body>
 </html>

@@ -20,7 +20,8 @@ public class Course {
     private int id;
 
     @Column
-    private @NonNull String title;
+    private @NonNull
+    String title;
 
     @ManyToOne(cascade = {DETACH, MERGE, PERSIST, REFRESH})
     @JoinColumn(name = "instructor_id")

@@ -1,6 +1,5 @@
 package pl.przydan.springDemo._4_Java_SpringNoXMLConfig.coach;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import pl.przydan.springDemo._4_Java_SpringNoXMLConfig.fortune.FortuneService;
@@ -8,11 +7,10 @@ import pl.przydan.springDemo._4_Java_SpringNoXMLConfig.fortune.FortuneService;
 @Component
 public class TennisCoach implements Coach {
 
-    @Autowired
-    @Qualifier("dbFortuneService")
-    private FortuneService fortune;
+    private final FortuneService fortune;
 
-    public TennisCoach() {
+    public TennisCoach(@Qualifier("dbFortuneService") FortuneService fortune) {
+        this.fortune = fortune;
     }
 
     @Override

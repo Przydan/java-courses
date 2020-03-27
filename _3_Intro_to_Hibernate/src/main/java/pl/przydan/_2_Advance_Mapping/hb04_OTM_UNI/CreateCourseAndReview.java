@@ -35,7 +35,7 @@ public class CreateCourseAndReview {
             //save the course ... and leverage the cascade all
             System.out.println(">> Saving the course");
             System.out.println(">>" + tempCourse);
-            System.out.println(">>" +tempCourse.getReviews());
+            System.out.println(">>" + tempCourse.getReviews());
             session.save(tempCourse);
 
             // commit transaction

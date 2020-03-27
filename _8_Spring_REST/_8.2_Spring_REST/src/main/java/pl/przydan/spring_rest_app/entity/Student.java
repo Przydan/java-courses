@@ -6,7 +6,10 @@ import lombok.NonNull;
 @Data
 
 public class Student {
-    private @NonNull Long id;
-    private @NonNull String firstName;
-    private @NonNull String lastName;
+    private @NonNull
+    Long id;
+    private @NonNull
+    String firstName;
+    private @NonNull
+    String lastName;
 }

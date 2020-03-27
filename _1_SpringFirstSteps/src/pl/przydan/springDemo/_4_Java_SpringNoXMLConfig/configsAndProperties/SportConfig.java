@@ -11,7 +11,7 @@ import pl.przydan.springDemo._4_Java_SpringNoXMLConfig.fortune.RandomFortuneServ
 
 @Configuration
 @ComponentScan(value = "pl.przydan.springDemo._4_Java_SpringNoXMLConfig")
-@PropertySource("pl/przydan/springDemo/_4_Java_SpringNoXMLConfig/configsAndProperties/sport.properties")
+@PropertySource("classpath:pl/przydan/springDemo/_4_Java_SpringNoXMLConfig/configsAndProperties/sport.properties")
 public class SportConfig {
 
     @Bean

@@ -16,7 +16,7 @@ public class AnnotationDemoApp {
         // My methods
         System.out.println(tennisCoach.getDailyWorkout());
         System.out.println(tennisCoach.getDailyFortune());
-        
+
         System.out.println(fightCoach.getDailyWorkout());
         System.out.println(fightCoach.getDailyFortune());
 

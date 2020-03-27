@@ -1,6 +1,6 @@
 CREATE USER 'hbstudent'@'localhost' IDENTIFIED BY 'hbstudent';
 
-GRANT ALL PRIVILEGES ON * . * TO 'hbstudent'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'hbstudent'@'localhost';
 
 #
 # Starting with MySQL 8.0.4, the MySQL team changed the 

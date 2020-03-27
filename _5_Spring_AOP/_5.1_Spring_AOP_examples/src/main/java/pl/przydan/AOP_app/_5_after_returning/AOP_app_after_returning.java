@@ -2,7 +2,6 @@ package pl.przydan.AOP_app._5_after_returning;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import pl.przydan.AOP_app._5_after_returning.DAO.AccountDAO;
-import pl.przydan.AOP_app._5_after_returning.DAO.MembershipDAO;
 import pl.przydan.AOP_app._5_after_returning.config.AppConfig;
 import pl.przydan.AOP_app._5_after_returning.entity.Account;
 

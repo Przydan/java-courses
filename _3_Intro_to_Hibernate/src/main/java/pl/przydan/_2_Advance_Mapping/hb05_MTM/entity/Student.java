@@ -20,12 +20,15 @@ public class Student {
     private int id;
 
     @Column(name = "first_name")
-    private @NonNull String firstName;
+    private @NonNull
+    String firstName;
 
     @Column(name = "last_name")
-    private @NonNull String lastName;
+    private @NonNull
+    String lastName;
 
-    private @NonNull String email;
+    private @NonNull
+    String email;
 
     @ManyToMany(fetch = LAZY,
             cascade = {DETACH, MERGE, PERSIST, REFRESH})

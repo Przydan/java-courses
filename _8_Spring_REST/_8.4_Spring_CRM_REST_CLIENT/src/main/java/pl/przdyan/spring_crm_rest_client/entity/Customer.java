@@ -14,11 +14,14 @@ public class Customer {
 
     private Long id;
 
-    private @NonNull String firstName;
+    private @NonNull
+    String firstName;
 
-    private @NonNull String lastName;
+    private @NonNull
+    String lastName;
 
-    private @NonNull String email;
+    private @NonNull
+    String email;
 
     @Override
     public boolean equals(Object o) {

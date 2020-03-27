@@ -1,6 +1,6 @@
 package pl.przydan.spring_crm_rest_api.controller.exceptions;
 
-public class CustomerNotFoundException extends RuntimeException{
+public class CustomerNotFoundException extends RuntimeException {
 
     public CustomerNotFoundException(String message, Throwable cause) {
         super(message, cause);
