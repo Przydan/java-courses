@@ -22,17 +22,17 @@ classes
 /_5_Spring_AOP/_5.1_Spring_AOP_examples/target/
 /_5_Spring_AOP/_5.2_Spring_AOP_WebApp/target/
 
-/_7_Spring_Security_project/_7.1_Spring_Security_base_app/target/
-/_7_Spring_Security_project/_7.2_Spring_Security_security_app/target/
-/_7_Spring_Security_project/_7.3_Spring_Security_security_app_DB/target/
+/_7_Spring_Security/_7.1_Spring_Security_base_app/target/
+/_7_Spring_Security/_7.2_Spring_Security_security_app/target/
+/_7_Spring_Security/_7.3_Spring_Security_security_app_DB/target/
 
 # MVN wrapper
-/_7_Spring_Security_project/_7.2_Spring_Security_security_app/mvnw
-/_7_Spring_Security_project/_7.2_Spring_Security_security_app/mvnw.cmd
-/_7_Spring_Security_project/_7.2_Spring_Security_security_app/.mvn/
+/_7_Spring_Security/_7.2_Spring_Security_security_app/mvnw
+/_7_Spring_Security/_7.2_Spring_Security_security_app/mvnw.cmd
+/_7_Spring_Security/_7.2_Spring_Security_security_app/.mvn/
 
-/_7_Spring_Security_project/_7.3_Spring_Security_security_app_DB/.mvn/
-/_7_Spring_Security_project/_7.3_Spring_Security_security_app_DB/mvnw
+/_7_Spring_Security/_7.3_Spring_Security_security_app_DB/.mvn/
+/_7_Spring_Security/_7.3_Spring_Security_security_app_DB/mvnw
 
 /mvnw.cmd
 /mvnw

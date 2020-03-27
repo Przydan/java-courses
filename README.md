@@ -113,9 +113,10 @@ Links:
     [dev-tools](https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools) |
     [spring-properties](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#common-application-properties) | 
     [JPQL-docs](https://docs.oracle.com/javaee/7/tutorial/persistence-querylanguage.htm#BNBTG) |
-    [optional-oracle-article](https://community.oracle.com/docs/DOC-991686) | 
+    [optional-oracle-article](https://community.oracle.com/docs/DOC-991686) |
+    [jpa-repo-query-methods](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods.details) | 
     [spring-rest-tut](https://spring.io/guides/tutorials/rest/) |
-    [spring-data-rest](https://docs.spring.io/spring-data/rest/docs/current/reference/html/#reference)
+    [spring-data-rest](https://docs.spring.io/spring-data/rest/docs/current/reference/html/#reference) |
     [HATEOAS](https://docs.spring.io/spring-hateoas/docs/current/reference/html/)
 ]
 
@@ -126,6 +127,13 @@ Links:
  5. Data REST overview - configuration, pagination, sorting 
  
 ***
+## Module _10_: Spring BOOT - Thymeleaf 
+[
+    [Thymeleaf](https://www.thymeleaf.org/) |
+    [Bootstrap](https://getbootstrap.com/) |
+    [POST/Redirect/GET - pattern](https://en.wikipedia.org/wiki/Post/Redirect/Get)
+]
+ 1. Thymeleaf overview, adding Bootstrap 
+ 2. 
 # In progress ... 
  
-## Module _10_: Spring BOOT - Thymeleaf 

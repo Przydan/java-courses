@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Employee Directory</title>
+</head>
+<body>
+<div class="container">
+
+    <div>
+        <p class="server-time" th:text="'Time on the server is ' + ${date}"/>
+    </div>
+
+    <hr>
+
+    <h3>Employee Directory</h3>
+
+    <hr>
+    <div>
+        <a class="btn-primary btn-sm mb-3" th:href="@{/employees/showFormForAdd}">
+            Add Employee
+        </a>
+    </div>
+    <hr>
+    <div>
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="employee : ${employees}">
+                <td th:text="${employee.getFirstName()}"/>
+                <td th:text="${employee.getLastName()}"/>
+                <td th:text="${employee.getEmail()}"/>
+                <td>
+                    <a class="btn btn-info btn-sm"
+                       th:href="@{/employees/showFormForUpdate(employeeID=${employee.id})}">
+                        Update
+                    </a>
+                    <a class="btn btn-danger btn-sm"
+                       onclick="if (!(confirm('Are you sure you want to delete this employee?'))) return false"
+                       th:href="@{/employees/delete(employeeID=${employee.id})}">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
