@@ -1,15 +1,15 @@
 ## Courses
 
-***
-
 ### In progress
 - [Full Stack: Angular and Spring Boot](https://www.udemy.com/share/102a9UB0QSclpRR3U=/)
 
 ### TODO
 - [Programowanie w JavaScript](https://www.udemy.com/share/101ZreB0QSclpRR3U=/)
 - [Spring Framework 5: Beginner to Guru](https://www.udemy.com/share/1013MwB0QSclpRR3U=/)
-- []()
-- []()
+- [MongoDB University](https://university.mongodb.com/)
+- [JetBrains Academy / Java Developer](https://hyperskill.org/)
+- [Go](https://tour.golang.org/welcome/1)
+- ...
 
 ### Ended
 - [Java - ambitny start. Zbuduj aplikację webową!](https://www.udemy.com/share/101VASB0QSclpRR3U=/)
@@ -18,9 +18,14 @@
 - [SDA - Java from Scratch](https://sdacademy.dev/courses/java-remote/) 
 
 ***
-
 ## Books
+
 ### In progress
 - []()
 ### Ended
 - []()
+### Never end
+- []()
+
+***
+## Projects with friends 
