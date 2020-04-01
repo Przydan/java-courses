@@ -25,7 +25,7 @@
 ### Ended
 - []()
 ### Never end
-- []()
+- [Czysty kod. Podręcznik dobrego programisty](https://helion.pl/ksiazki/czysty-kod-podrecznik-dobrego-programisty-robert-c-martin,czykov.htm#format/d)
 
 ***
 ## Projects with friends 
