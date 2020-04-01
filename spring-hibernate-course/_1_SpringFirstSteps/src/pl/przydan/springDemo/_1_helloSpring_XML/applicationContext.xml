@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:contex="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--    load the properties file: sport.properties  -->
+    <contex:property-placeholder location="sport.properties"/>
+
+    <!-- Define your beans here -->
+
+    <!--
+        — Add a logger config to see logging messages.
+        — For more detailed logs, set values to "FINEST"
+     -->
+
+    <bean id="myLoggerConfig" class="pl.przydan.springDemo._1_helloSpring_XML.logger.MyLoggerConfig"
+          init-method="initLogger">
+        <property name="rootLoggerLevel" value="FINE"/>
+        <property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+
+    <!-- define the dependency -->
+    <bean id="myFortune" class="pl.przydan.springDemo._1_helloSpring_XML.fortune.RandomFortuneService"/>
+
+    <bean id="myCoach1" class="pl.przydan.springDemo._1_helloSpring_XML.coach.BaseballCoach">
+        <!-- set up constructor injection -->
+        <constructor-arg ref="myFortune"/>
+    </bean>
+
+    <bean id="myCoach2" class="pl.przydan.springDemo._1_helloSpring_XML.coach.TrackCoach">
+        <constructor-arg ref="myFortune"/>
+    </bean>
+
+    <bean id="myCoach3" class="pl.przydan.springDemo._1_helloSpring_XML.coach.CarCoach">
+        <constructor-arg ref="myFortune"/>
+    </bean>
+
+    <bean id="myCoach4" class="pl.przydan.springDemo._1_helloSpring_XML.coach.CricketCoach">
+        <!-- set up setter injection -->
+        <property name="fortuneService" ref="myFortune"/>
+        <!-- inject literal values -->
+        <property name="emailAddress" value="${foo.email}"/>
+        <property name="team" value="${foo.team}"/>
+    </bean>
+
+
+</beans>

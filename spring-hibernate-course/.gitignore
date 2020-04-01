@@ -8,7 +8,7 @@
 /spring_demo_one.iml
 /vcs.xml
 
-/.idea/
+
 ../.idea
 .settings
 .vscode
@@ -52,4 +52,5 @@ classes
 /_8_Spring_REST/_8.2_Spring_REST/target/
 /_8_Spring_REST/_8.3_Spring_CRM_REST_API/target/
 /_8_Spring_REST/_8.4_Spring_CRM_REST_CLIENT/target/
-
+/_9_Spring_BOOT/_9.1_dev_tools_&_actuator/.mvn/
+/_9_Spring_BOOT/_9.4_spring_data_rest/.mvn/
