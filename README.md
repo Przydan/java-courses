@@ -1,6 +1,5 @@
 ## Courses
 
-
 ### In progress
 - [Full Stack: Angular and Spring Boot](https://www.udemy.com/share/102a9UB0QSclpRR3U=/)
 
@@ -19,8 +18,8 @@
 - [SDA - Java from Scratch](https://sdacademy.dev/courses/java-remote/) 
 
 ***
-
 ## Books
+
 ### In progress
 - []()
 ### Ended
