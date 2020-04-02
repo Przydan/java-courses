@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.przydan</groupId>
-    <artifactId>spring_boot_db_rest_api</artifactId>
+    <artifactId>_9.2_rest_api_hibernate_jpa</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring_boot_db_rest_api</name>
+    <name>_9.2_rest_api_hibernate_jpa</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

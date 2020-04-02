@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.przydan</groupId>
-    <artifactId>thymeleaf-demo-app</artifactId>
+    <artifactId>_10.1_thymeleaf-demo-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>thymeleaf-demo-app</name>
+    <name>_10.1_thymeleaf-demo-app</name>
     <description>Demo project for Spring Boot - Thymeleaf</description>
 
     <properties>
