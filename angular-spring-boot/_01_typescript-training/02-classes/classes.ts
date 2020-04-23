@@ -54,9 +54,8 @@ let myCustomer2 = new Customer2("Luigi", "Bergamo");
 console.log("Customer2: " + myCustomer2.firstName + " " + myCustomer2.lastName);
 
 let myCustomer3 = new Customer3("Aurora", "Borealis");
-console.log(`customer3: ${myCustomer3.firstName} ${myCustomer3.lastName} ` )
+console.log(`customer3: ${myCustomer3.firstName} ${myCustomer3.lastName} `)
 
 
 console.log("##############################################");
 console.log("end");
-
