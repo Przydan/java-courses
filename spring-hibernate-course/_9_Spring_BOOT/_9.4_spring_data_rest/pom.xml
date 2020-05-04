@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.przydan</groupId>
-    <artifactId>_9.4_spring_data_rest</artifactId>
+    <artifactId>spring_data_rest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>_9.4_spring_data_rest</name>
+    <name>spring_data_rest</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -62,6 +62,15 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>13</source>
+                    <target>13</target>
+                    <compilerArgs>--enable-preview</compilerArgs>
+                </configuration>
             </plugin>
         </plugins>
     </build>

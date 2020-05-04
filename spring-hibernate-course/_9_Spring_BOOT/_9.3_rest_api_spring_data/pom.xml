@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.przydan</groupId>
-    <artifactId>_9.3_rest_api_spring_data</artifactId>
+    <artifactId>rest_api_spring_data</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>_9.3_rest_api_spring_data</name>
+    <name>rest_api_spring_data</name>
     <description>Demo project for Spring Boot with Spring Data</description>
 
     <properties>
